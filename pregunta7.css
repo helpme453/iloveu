@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFE4E4;
+}
+
+
+/* Contenedor */
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	height: 110vh;
+}
+
+
+/* Contenido */
+.contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido h1 {
+    color: #9A0A12;
+}
+
+.contenido p {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; font-weight: bold; text-decoration: underline; text-decoration-color: #9A0A12;}
+
+.oui {font-size: 290px;}
+
+
+.botonsi {
+    width: 690px; /* Ancho del cuadrado */
+    height: 580px; /* Alto del cuadrado */
+    background-color: #9A0A12; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s ease; /* Transición suave */
+	position: relative;
+	right: -250px;
+}
+
+/* Efecto hover */
+.botonsi:hover {
+    transform: scale(1.1); /* Escala el cuadrado al 110% */
+}
+
+
+
+.hellokitty{position: relative; top: -33px; right: 21px;}
